@@ -1,0 +1,59 @@
+.header-main {
+	height: 95px
+}
+
+.header-main .login {
+	margin-right: 30px
+}
+
+.header-main .register {
+	padding: 6px 20px;
+	border-radius: 50px;
+	background-color: var(--color-secondary)
+}
+
+.header-main .account .fullname {
+	line-height: 23px
+}
+
+.header-main .account .zodiac {
+	background: #172b48;
+	border-radius: 4px;
+	padding: 0 8px;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 26px
+}
+
+.header-main .account .dropdown-menu {
+	background: #fff;
+	border-radius: 5px;
+	width: 153px;
+	right: 0
+}
+
+.header-main .account .dropdown-menu li {
+	cursor: pointer
+}
+
+.header-main .account .dropdown-menu li .name {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #747474;
+	margin-left: 8px;
+	transition: .25s ease
+}
+
+.header-main .account .dropdown-menu li:hover .name {
+	border-bottom: 1px solid #747474
+}
+
+.icon-main .mask {
+	mask-repeat: no-repeat;
+	mask-position: center;
+	mask-size: contain;
+	-webkit-mask-size: contain;
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center
+}

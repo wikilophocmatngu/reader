@@ -1,0 +1,21 @@
+.login-page .or-create {
+    color: #7a7a7a;
+}
+
+.login-page .submit {
+    height: 47px;
+    border-radius: 9px;
+    background-color: var(--color-secondary);
+}
+
+.login-with-google {
+    border: 1px solid #d1d1d1;
+    border-radius: 9px;
+    padding: 8px 14px;
+}
+
+.login-with-facebook {
+    border: 1px solid #d1d1d1;
+    border-radius: 9px;
+    padding: 8px 24px;
+}

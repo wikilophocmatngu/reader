@@ -1,0 +1,9 @@
+.footer-main .login {
+	margin-right: 30px
+}
+
+.footer-main .register {
+	padding: 6px 20px;
+	border-radius: 50px;
+	background-color: var(--color-secondary)
+}

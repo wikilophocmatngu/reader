@@ -1,0 +1,186 @@
+.home-banner-main {
+    height: auto
+}
+
+.home-banner-main .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px
+}
+
+.home-banner-main .swiper-pagination .swiper-pagination-bullet-active {
+    background: #0747a6
+}
+
+@media (min-width: 640px) {
+    .home-banner-main {
+        height:540px
+    }
+
+    .home-banner-main .swiper-pagination .swiper-pagination-bullet {
+        width: 19px;
+        height: 19px
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .home-manga-new-main .manga-title .name {
+        font-size:16px!important;
+        line-height: 18px!important
+    }
+
+    .home-manga-new-main .manga-title .total-chapter {
+        font-size: 14px!important
+    }
+}
+
+.home-manga-new-main {
+    margin-top: 52px
+}
+
+.home-manga-new-main .manga-title {
+    position: relative
+}
+
+.home-manga-new-main .manga-title:before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 100%;
+    border-radius: 10px;
+    left: 0;
+    background: var(--color-secondary)
+}
+
+.home-manga-new-main .manga-title .name {
+    font-family: "000 CCBattleCry TB";
+    font-style: italic;
+    font-weight: 1;
+    font-size: 36px;
+    line-height: 44px;
+    margin-left: 23px
+}
+
+.home-manga-new-main .manga-title .total-chapter {
+    border-radius: 36px;
+    display: inline-block;
+    height: 34px;
+    background: #0065ff;
+    padding: 4px 15px
+}
+
+.home-manga-new-main .description {
+    margin-top: 17px;
+    color: #a5a5a5
+}
+
+.chapter-card-main {
+    border-radius: 15px;
+    overflow: hidden;
+    color: #252b42
+}
+
+.chapter-card-main .poster {
+    height: 544px
+}
+
+.chapter-card-main .info {
+    background: #fff;
+    padding: 24px 25px 17px
+}
+
+.chapter-card-main .info .description {
+    margin-bottom: 9px;
+    color: #aaa
+}
+
+.chapter-card-main .info .viewed {
+    color: #aaa
+}
+
+.chapter-card-main .info .coming-soon {
+    padding: 1px 8px;
+    text-align: center;
+    background: #ff9fcd;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px
+}
+
+.chapter-card-main .info .name {
+    position: relative;
+    top: -6px
+}
+
+.chapter-card-main .info .name span {
+    line-height: 2.8rem
+}
+
+.chapter-card-main .info .name:hover span {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2
+}
+
+.rating {
+    display: inline-block;
+    unicode-bidi: bidi-override;
+    color: #888;
+    font-size: 25px;
+    width: auto;
+    position: relative;
+    padding: 0
+}
+
+.rating-lower span,
+.rating-upper span {
+    margin-right: 4px
+}
+
+.rating-upper {
+    color: #ffdf00;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 0;
+    left: 0;
+    overflow: hidden
+}
+
+.rating-lower {
+    padding: 0;
+    display: flex;
+    z-index: 0
+}
+
+.home-look-more-main {
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    height: auto
+}
+
+.home-look-more-main .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #100c2c;
+    opacity: .4
+}
+
+.home-look-more-main .register {
+    padding: 6px 20px;
+    border-radius: 50px
+}
+
+@media(min-width: 640px) {
+    .home-look-more-main {
+        height:540px
+    }
+}
