@@ -210,7 +210,7 @@
 		</div>
 	</div>
 	</div>
-	<div class="home-look-more-main 	flex 	w-full 	justify-center 	items-center 	text-white 	mt-12" bis_skin_checked="1"><a href="https://lophocmatngu.vn" target="_blank" rel="noopener noreferrer" class="w-full h-full"><img src="https://media.discordapp.net/attachments/895288799775559751/910385957251981392/Banner_KRKC_Shopee_CAT_3.jpg" class="w-full h-full object-cover"></a></div>
+	<div class="home-look-more-main flex w-full justify-center items-center text-white mt-12" bis_skin_checked="1"><a href="https://lophocmatngu.vn" target="_blank" rel="noopener noreferrer" class="w-full h-full"><img src="https://media.discordapp.net/attachments/895288799775559751/910385957251981392/Banner_KRKC_Shopee_CAT_3.jpg" class="w-full h-full object-cover"></a></div>
 </div>
 </template>
 
