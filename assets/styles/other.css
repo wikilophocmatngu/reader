@@ -713,8 +713,6 @@ button.swiper-pagination-bullet {
 
 body {
 	font-family: Source Sans Pro, sans-serif;
-	color: #100c2c;
-	color: var(--color-primary);
 	transition: background-color .3s;
 	font-size: 18px;
 	line-height: 26px
@@ -826,9 +824,4 @@ input:focus {
 	.footer-main {
 		height: 100% !important
 	}
-}
-
-.bg-primary {
-    background-color: #100c2c;
-    background-color: var(--color-primary);
 }

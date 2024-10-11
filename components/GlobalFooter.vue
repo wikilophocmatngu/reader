@@ -5,7 +5,7 @@
           <div class="grid grid-cols-1 md:grid-cols-3">
             <div class="mx-auto md:mx-0 my-2 md:my-0">
               <a href="/" aria-current="page" class="router-link-exact-active router-link-active">
-                <img src="/img/logo.png" width="92px" height="58px" alt="logo" />
+                <img src="/img/logo.png" width="175px" height="auto" alt="logo" />
               </a>
             </div>
             <div class="socials space-x-5 inline-flex items-center justify-center mb-2 sm:mb-0">

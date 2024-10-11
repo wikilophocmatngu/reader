@@ -1,10 +1,7 @@
 <template>
 <div class="home-page bg-primary" bis_skin_checked="1">
 	<div class="home-banner-main" bis_skin_checked="1">
-	<div class="h-full w-full swiper-container swiper-container-initialized swiper-container-horizontal" bis_skin_checked="1">
-		<div class="swiper-wrapper" bis_skin_checked="1" style="transform: translate3d(0px, 0px, 0px);"><a href="https://lophocmatngu.vn" target="_blank" rel="noopener noreferrer" class="block swiper-slide cursor-pointer swiper-slide-active" style="width: 666px;"><img src="https://media.discordapp.net/attachments/895288799775559751/910385804260540446/Banner_KRKC_Shopee_CAT_2.jpg" alt="image" class="object-cover h-full w-full"></a><a href="https://boardgame.vn" target="_blank" rel="noopener noreferrer" class="block swiper-slide cursor-pointer swiper-slide-next" style="width: 666px;"><img src="https://media.discordapp.net/attachments/895288799775559751/913826083189698630/Banner_ShopeexBGVN_1200x360px8.png" alt="image" class="object-cover h-full w-full"></a></div>
-		<div slot="pagination" class="swiper-pagination swiper-pagination-bullets" bis_skin_checked="1"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-	</div>
+		<Slider />
 	</div>
 	<div class="home-manga-new-main wrapper px-2" bis_skin_checked="1">
 	<div class="mb-8" bis_skin_checked="1">
@@ -18,7 +15,7 @@
 		Series Lớp học mật ngữ xoay quanh những câu chuyện học đường hài hước, dí dỏm của các bạn học sinh lớp hoàng đạo và lớp hoàng cung ở trường THCS Vũ trụ Ngân Hà với ti tỉ những trò đùa nghịch tuổi “nhất quỷ nhì mà, thứ ba học trò”, đan xen với những tình cảm mới lớn trong trẻo và ngây thơ mà ai ai trong đời cũng từng trải qua. Hãy cùng khám phá những bí mật động trời từ thuở thò lò mũi xanh của 12 cung hoàng đạo thôi nào!
 		</div>
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-7 mt-8" bis_skin_checked="1">
-		<div class="chapter-card-main" bis_skin_checked="1"><a href="http://truyen.lophocmatngu.vn/lop-hoc-mat-ngu-original-series-chuong-1" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903503204938035260/0_cover.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
+		<div class="chapter-card-main" bis_skin_checked="1"><a href="/lop-hoc-mat-ngu-original-series-chuong-1" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903503204938035260/0_cover.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
 			<div class="info" bis_skin_checked="1">
 				<div class="font-ccb text-3xl name h-9" bis_skin_checked="1"><span class="line-clamp-1 absolute right-0 left-0">Để tớ giúp cho</span></div>
 				<div class="description font-normal text-lg mt-3 line-clamp-3" bis_skin_checked="1">
@@ -62,7 +59,7 @@
 				</div>
 			</div>
 			</a></div>
-		<div class="chapter-card-main" bis_skin_checked="1"><a href="http://truyen.lophocmatngu.vn/lop-hoc-mat-ngu-original-series-chuong-2" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903503530709643284/1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
+		<div class="chapter-card-main" bis_skin_checked="1"><a href="/lop-hoc-mat-ngu-original-series-chuong-2" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903503530709643284/1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
 			<div class="info" bis_skin_checked="1">
 				<div class="font-ccb text-3xl name h-9" bis_skin_checked="1"><span class="line-clamp-1 absolute right-0 left-0">Cuộc Đua Sao Chổi (p1)</span></div>
 				<div class="description font-normal text-lg mt-3 line-clamp-3" bis_skin_checked="1">
@@ -73,7 +70,7 @@
 				</div>
 			</div>
 			</a></div>
-		<div class="chapter-card-main" bis_skin_checked="1"><a href="http://truyen.lophocmatngu.vn/lop-hoc-mat-ngu-original-series-chuong-3" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903504453070626816/1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
+		<div class="chapter-card-main" bis_skin_checked="1"><a href="/lop-hoc-mat-ngu-original-series-chuong-3" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903504453070626816/1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
 			<div class="info" bis_skin_checked="1">
 				<div class="font-ccb text-3xl name h-9" bis_skin_checked="1"><span class="line-clamp-1 absolute right-0 left-0">Lớp trưởng vĩ đại</span></div>
 				<div class="description font-normal text-lg mt-3 line-clamp-3" bis_skin_checked="1">
@@ -97,7 +94,7 @@
 		Do bản tính nghịch ngợm hiếu kỳ, 2 anh em Song Tử đã vô tình đánh thức toàn bộ quái thú trong cuốn “Bách Khoa Toàn Thư Siêu Thú Ngân Hà”. Bầy thú thoát khỏi niêm phong được cảnh báo sẽ gây ra các nguy hiểm khôn lường. Liệu các Cung hoàng đạo của chúng ta có thu phụ Siêu thú và quái thú, giải cứu thế giới thành công hay không? Hãy cùng dõi theo hành trình đầy bất ngờ và thú vị này nhé!
 		</div>
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-7 mt-8" bis_skin_checked="1">
-		<div class="chapter-card-main" bis_skin_checked="1"><a href="http://truyen.lophocmatngu.vn/sieu-thu-ngan-ha-series-chuong-1" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903505349833814076/1_1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
+		<div class="chapter-card-main" bis_skin_checked="1"><a href="/sieu-thu-ngan-ha-series-chuong-1" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903505349833814076/1_1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
 			<div class="info" bis_skin_checked="1">
 				<div class="font-ccb text-3xl name h-9" bis_skin_checked="1"><span class="line-clamp-1 absolute right-0 left-0">Siêu Thú Ngân Hà (p1)</span></div>
 				<div class="description font-normal text-lg mt-3 line-clamp-3" bis_skin_checked="1">
@@ -141,7 +138,7 @@
 				</div>
 			</div>
 			</a></div>
-		<div class="chapter-card-main" bis_skin_checked="1"><a href="http://truyen.lophocmatngu.vn/sieu-thu-ngan-ha-series-chuong-2" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/902959413353123850/1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
+		<div class="chapter-card-main" bis_skin_checked="1"><a href="/sieu-thu-ngan-ha-series-chuong-2" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/902959413353123850/1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
 			<div class="info" bis_skin_checked="1">
 				<div class="font-ccb text-3xl name h-9" bis_skin_checked="1"><span class="line-clamp-1 absolute right-0 left-0">Siêu Thú Ngân Hà (p2)</span></div>
 				<div class="description font-normal text-lg mt-3 line-clamp-3" bis_skin_checked="1">
@@ -152,7 +149,7 @@
 				</div>
 			</div>
 			</a></div>
-		<div class="chapter-card-main" bis_skin_checked="1"><a href="http://truyen.lophocmatngu.vn/sieu-thu-ngan-ha-series-chuong-3" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903506065998643210/STNH_phan_7.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
+		<div class="chapter-card-main" bis_skin_checked="1"><a href="/sieu-thu-ngan-ha-series-chuong-3" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903506065998643210/STNH_phan_7.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
 			<div class="info" bis_skin_checked="1">
 				<div class="font-ccb text-3xl name h-9" bis_skin_checked="1"><span class="line-clamp-1 absolute right-0 left-0">Siêu Thú Ngân Hà (p3)</span></div>
 				<div class="description font-normal text-lg mt-3 line-clamp-3" bis_skin_checked="1">
@@ -176,7 +173,7 @@
 		Đây là những mẩu truyện nhỏ rất thú vị. Biết đâu nó sẽ là bí kíp tuyệt vời cho cuộc sống muôn màu của cậu. Cùng tìm hiểu nhé!
 		</div>
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-7 mt-8" bis_skin_checked="1">
-		<div class="chapter-card-main" bis_skin_checked="1"><a href="http://truyen.lophocmatngu.vn/ngoai-truyen-chuong-2" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903507424839868488/1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
+		<div class="chapter-card-main" bis_skin_checked="1"><a href="/ngoai-truyen-chuong-2" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903507424839868488/1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
 			<div class="info" bis_skin_checked="1">
 				<div class="font-ccb text-3xl name h-9" bis_skin_checked="1"><span class="line-clamp-1 absolute right-0 left-0">Nỗi sợ khi đi học</span></div>
 				<div class="description font-normal text-lg mt-3 line-clamp-3" bis_skin_checked="1">
@@ -187,7 +184,7 @@
 				</div>
 			</div>
 			</a></div>
-		<div class="chapter-card-main" bis_skin_checked="1"><a href="http://truyen.lophocmatngu.vn/ngoai-truyen-chuong-3" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903507813509267496/1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
+		<div class="chapter-card-main" bis_skin_checked="1"><a href="/ngoai-truyen-chuong-3" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903507813509267496/1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
 			<div class="info" bis_skin_checked="1">
 				<div class="font-ccb text-3xl name h-9" bis_skin_checked="1"><span class="line-clamp-1 absolute right-0 left-0">Phản ứng về tin đồn</span></div>
 				<div class="description font-normal text-lg mt-3 line-clamp-3" bis_skin_checked="1">
@@ -197,7 +194,7 @@
 				</div>
 			</div>
 			</a></div>
-		<div class="chapter-card-main" bis_skin_checked="1"><a href="http://truyen.lophocmatngu.vn/ngoai-truyen-chuong-0" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903514561703985182/1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
+		<div class="chapter-card-main" bis_skin_checked="1"><a href="/ngoai-truyen-chuong-0" class=""><img src="https://media.discordapp.net/attachments/895288799775559751/903514561703985182/1.jpg?width=380&amp;height=554" width="380" height="554" alt="chapter" class="poster object-cover w-full">
 			<div class="info" bis_skin_checked="1">
 				<div class="font-ccb text-3xl name h-9" bis_skin_checked="1"><span class="line-clamp-1 absolute right-0 left-0">Hướng dẫn tặng quà Giáng Sinh</span></div>
 				<div class="description font-normal text-lg mt-3 line-clamp-3" bis_skin_checked="1">
@@ -210,10 +207,16 @@
 		</div>
 	</div>
 	</div>
-	<div class="home-look-more-main flex w-full justify-center items-center text-white mt-12" bis_skin_checked="1"><a href="https://lophocmatngu.vn" target="_blank" rel="noopener noreferrer" class="w-full h-full"><img src="https://media.discordapp.net/attachments/895288799775559751/910385957251981392/Banner_KRKC_Shopee_CAT_3.jpg" class="w-full h-full object-cover"></a></div>
+	<div class="home-look-more-main flex w-full justify-center items-center text-white mt-12" bis_skin_checked="1"><a href="https://lophocmatngu.vn" target="_blank" rel="noopener noreferrer" class="w-full h-full">
+		<img src="https://static.miraheze.org/lhmnwiki/e/e1/Site-background_Cosmos.jpg" class="w-full h-full object-cover"></a>
+	</div>
 </div>
 </template>
 
 <style scoped>
   @import '@/assets/styles/home.css';
+  @import '@/assets/styles/other.css';
 </style>
+
+<script scoped>
+</script>

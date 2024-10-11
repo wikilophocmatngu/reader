@@ -1,21 +1,19 @@
-.login-page .or-create {
+.login-page .or-create,
+.register-page .or-login {
     color: #7a7a7a;
 }
 
-.login-page .submit {
+.login-page .submit,
+.register-page .submit {
     height: 47px;
     border-radius: 9px;
     background-color: var(--color-secondary);
 }
 
-.login-with-google {
+.login-with-google,
+.login-with-facebook,
+.login-with-mediawiki {
     border: 1px solid #d1d1d1;
     border-radius: 9px;
     padding: 8px 14px;
-}
-
-.login-with-facebook {
-    border: 1px solid #d1d1d1;
-    border-radius: 9px;
-    padding: 8px 24px;
 }
