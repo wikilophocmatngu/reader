@@ -1,8 +1,11 @@
 {
-  // https://nuxt.com/docs/guide/concepts/typescript
   "extends": "./.nuxt/tsconfig.json",
   "include": [
-    "./**/*",
-    "!./server/api/auth/pisces.ts"
+    "./**/*"
+  ],
+  "exclude": [
+    "./server/api/auth/pisces.ts",
+    "./dist",
+    "./node_modules"
   ]
 }
