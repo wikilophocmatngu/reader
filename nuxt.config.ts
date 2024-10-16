@@ -14,9 +14,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/ui',
     '@sidebase/nuxt-auth',
-    'nuxt-cloudflare-analytics',
-    '@nuxthub/core',
-    '@nuxt/content'
+    '@nuxthub/core'
   ],
   swiper: { // Swiper options
     //----------------------
