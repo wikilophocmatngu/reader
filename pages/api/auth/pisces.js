@@ -1,7 +1,6 @@
 import GoogleProvider from 'next-auth/providers/google';
 import WikimediaProvider from 'next-auth/providers/wikimedia';
 import FacebookProvider from 'next-auth/providers/facebook';
-import { NuxtAuthHandler } from '#auth'
 
 export default NuxtAuthHandler({
     providers: [
