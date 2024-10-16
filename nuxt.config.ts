@@ -28,8 +28,7 @@ export default defineNuxtConfig({
     baseURL: 'http://localhost:3000/api/auth',
     provider: { 
       type: 'authjs',
-      trustHost: false,
-      addDefaultCallbackUrl: true  
+      trustHost: false  
     },
     sessionRefresh: {
       enablePeriodically: true,
