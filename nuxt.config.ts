@@ -9,11 +9,18 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  hub: {
+    database: true,
+    kv: true,
+    blob: true
+  },
   modules: [
     'nuxt-swiper',
     '@nuxt/icon',
     '@nuxt/ui',
-    '@sidebase/nuxt-auth'
+    '@sidebase/nuxt-auth',
+    '@nuxthub/core' 
+
   ],
   swiper: { // Swiper options
     //----------------------
